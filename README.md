@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# KaryaKoash - Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [KaryaKoash Live Demo](https://karya-koash.vercel.app/)
 
-Currently, two official plugins are available:
+## What is KaryaKoash?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"KaryaKoash" is derived from two words:
+- "Karya" means work or task in Sanskrit.
+- "Koash" is inspired by the phonetic spelling of the word "cache."
 
-## Expanding the ESLint configuration
+Combined, "KaryaKoash" represents a tool to efficiently manage and cache your tasks.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Technology
+## 1.Vite+React
+## 2.TypeScript
 
-- Configure the top-level `parserOptions` property like this:
+## App Summary:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+KaryaKoash is a modern todo application designed to streamline your task management. It provides a user-friendly interface for organizing daily activities, planning projects, and setting reminders.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
+
+## Desktop View
+
+![KaryaKoash App](./docs/desktop.png)
+
+## Mobile View
+
+![KaryaKoash App](./docs/mobile1.png)
+
+![KaryaKoash App](./docs/mobile2.png)
+
+
+## Tablet View
+
+![KaryaKoash App](./docs/tablet.png)
+
+
+## MacBook view
+
+![KaryaKoash App](./docs/macbook.png)
+
+
+## How to Use:
+
+1. Visit the [Live Demo](https://karya-koash.vercel.app/) to interact with the application.
+2. Add new todos by entering task details and clicking the "Add" button.
+3. Mark tasks as complete by checking the checkbox.
+4. Remove unwanted todos by clicking the delete button.
+
+## Running Locally:
+
+To run the app locally or contribute:
+
+1. Fork the repository.
+2. Clone the forked repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/karyakoash.git
+3. npm install
+4. npm start
+5. Open your browser and navigate to "http://localhost:5173".
+
