@@ -8,9 +8,11 @@
     font-family: 'Urbanist', sans-serif;
 }
 
-
-/*// thapa technical SUBSCRIBE*/
-
+p{
+    color: red;
+    font-size: 20px;
+    margin-left: 30px;
+}
 html{
     font-size: 62.5%;
 }
